@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    font-family: 'Hanken Grotesk';
+    overflow: hidden;
+}
+
+.card {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 41%;
+    height: 49%;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.1); 
+}
+
+/* Left */
+
+.purple_side {
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    border-radius: 30px;
+}
+
+.result {
+    text-align: center;
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+    margin-top: 10%;
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: 20%;
+    color: white;
+}
+
+.little {
+    text-align: center;
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+    margin-top: -30%;
+    font-weight: 600;
+}
+
+.great {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.feedback {
+    text-align: center;
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+    margin-top: -3%;
+}
+
+/* Right */
+
+.white_side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.summary {
+    color: black;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 12%;
+    font-weight: 600;
+}
+
+.red {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 76%;
+    height: 11%;
+    background-color: hsla(0, 100%, 67%, 20%);
+    border-radius: 6px;
+    display: flex;
+    align-items: center
+}
+
+.reac_img {
+    width: 8%;
+    margin-left: 5%;
+}
+
+.reaction {
+    font-size: 16px;
+    margin-left: 3%;
+    color: hsl(0, 100%, 67%);
+}
+
+.scores1 {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 22%;
+}
+
+.out1 {
+    color: grey;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 2%;
+}
+
+.yellow {
+    margin-left: auto;
+    margin-right: auto;
+    width: 76%;
+    height: 11%;
+    background-color: hsla(39, 100%, 56%, 10%);
+    border-radius: 6px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center
+}
+
+.memo_img {
+    width: 8%;
+    margin-left: 5%;
+}
+
+.memory {
+    font-size: 16px;
+    margin-left: 3%;
+    color: hsl(39, 100%, 56%);
+}
+
+.scores2 {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 23.5%;
+}
+
+.out2 {
+    color: grey;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 2%;
+}
+
+.green {
+    margin-left: auto;
+    margin-right: auto;
+    width: 76%;
+    height: 11%;
+    background-color: hsla(166, 100%, 37%, 10%);
+    border-radius: 6px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center
+}
+
+.verbal_img {
+    width: 8%;
+    margin-left: 5%;
+}
+
+.verbal {
+    font-size: 16px;
+    margin-left: 3%;
+    color: hsl(166, 100%, 37%);
+}
+
+.scores3 {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 29.5%;
+}
+
+.out3 {
+    color: grey;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 2%;
+}
+.purple {
+    margin-left: auto;
+    margin-right: auto;
+    width: 76%;
+    height: 11%;
+    background-color: hsla(234, 85%, 45%, 10%);
+    border-radius: 6px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center
+}
+
+.visual_img {
+    width: 8%;
+    margin-left: 5%;
+}
+
+.visual {
+    font-size: 16px;
+    margin-left: 3%;
+    color: hsla(256, 72%, 46%, 1);
+}
+
+.scores4 {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 30.5%;
+}
+
+.out4 {
+    color: grey;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 2%;
+}
+
+.continue {
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 76%;
+    height: 11%;
+    margin-top: 12%;
+    border-radius: 30px;
+    color: white;
+}
+
+.continue:hover {
+    cursor: pointer;
+    border: 2px solid hsl(224, 30%, 27%);
+    background-color: white;
+    color: hsl(224, 30%, 27%);
+}
+
+.attribution {
+    margin-top: 57%;
+}
