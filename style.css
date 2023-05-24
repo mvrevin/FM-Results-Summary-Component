@@ -25,7 +25,7 @@ body {
 .purple_side {
     background-color: hsl(252, 100%, 67%);
     background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    width: 50%;
+    width: 325px;
     border-radius: 30px;
 }
 
